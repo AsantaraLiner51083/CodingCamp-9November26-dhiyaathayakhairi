@@ -1,0 +1,212 @@
+
+/* ===== BASIC ===== */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+    color: #1e293b;
+}
+
+/* ===== HEADER ===== */
+.header {
+    background: #2563eb;
+    color: white;
+    padding: 25px 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.header p {
+    margin: 10px 0 0;
+    color: #dbeafe;
+}
+
+/* ===== MAIN CONTAINER ===== */
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* ===== SUMMARY ===== */
+.summary-card {
+    background: #2563eb;
+    color: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.summary-card p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.summary-card h2 {
+    font-size: 32px;
+    margin: 10px 0 0;
+}
+
+/* ===== GENERAL CARD ===== */
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.card h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+/* ===== FORM ===== */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 13px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+/* ===== TRANSACTION LIST ===== */
+#transaction-list {
+    list-style: none;
+    padding: 0;
+    max-height: 300px;
+    overflow-y: auto;
+    padding-right: 10px;
+    margin: 0;
+}
+
+#transaction-list li {
+    padding: 15px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.empty-message {
+    color: #64748b;
+    text-align: center;
+}
+
+/* ===== CHART ===== */
+.chart-container {
+    max-width: 350px;
+    margin: auto;
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 600px) {
+    .container {
+        margin: 20px auto;
+        padding: 0 15px;
+    }
+
+    .header h1 {
+        font-size: 23px;
+    }
+
+    .summary-card h2 {
+        font-size: 26px;
+    }
+
+    .card {
+        padding: 18px;
+    }
+}
+
+
+/* ===== DELETE BUTTON ===== */
+
+.delete-button {
+    background: #ef4444;
+    padding: 8px 12px;
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+.delete-button:hover {
+    background: #dc2626;
+}
+
+
+/* ===== THEME TOGGLE ===== */
+
+#theme-toggle {
+    background: white;
+    color: #2563eb;
+    padding: 10px 16px;
+    margin-top: 15px;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background: #0f172a;
+    color: #f1f5f9;
+}
+
+body.dark-mode .card {
+    background: #1e293b;
+    color: #f1f5f9;
+}
+
+body.dark-mode input,
+body.dark-mode select {
+    background: #334155;
+    color: white;
+    border-color: #475569;
+}
+
+body.dark-mode #transaction-list li {
+    border-color: #475569;
+}
+
+
+/* ===== BUDGET WARNING ===== */
+
+.budget-exceeded {
+    color: #dc2626;
+    font-weight: bold;
+}
+
+.budget-safe {
+    color: #16a34a;
+    font-weight: bold;
+}
