@@ -1,0 +1,56 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Fix budget warning false positive when no limit is set": [
+      {
+        "executionId": "4e45c7c2-1ad6-4e54-91f9-58670507897b",
+        "chatSessionId": "sess_224a44a0-6acd-4bce-897f-9a8c8ad544bb",
+        "timestamp": 1794478272396
+      },
+      {
+        "executionId": "4e45c7c2-1ad6-4e54-91f9-58670507897b",
+        "chatSessionId": "sess_224a44a0-6acd-4bce-897f-9a8c8ad544bb",
+        "timestamp": 1794478278714
+      },
+      {
+        "executionId": "4e45c7c2-1ad6-4e54-91f9-58670507897b",
+        "chatSessionId": "sess_224a44a0-6acd-4bce-897f-9a8c8ad544bb",
+        "timestamp": 1794478330874
+      }
+    ],
+    "2. Extend dark mode to cover the header and summary card": [
+      {
+        "executionId": "4e45c7c2-1ad6-4e54-91f9-58670507897b",
+        "chatSessionId": "sess_224a44a0-6acd-4bce-897f-9a8c8ad544bb",
+        "timestamp": 1794478272878
+      },
+      {
+        "executionId": "4e45c7c2-1ad6-4e54-91f9-58670507897b",
+        "chatSessionId": "sess_224a44a0-6acd-4bce-897f-9a8c8ad544bb",
+        "timestamp": 1794478281842
+      },
+      {
+        "executionId": "4e45c7c2-1ad6-4e54-91f9-58670507897b",
+        "chatSessionId": "sess_224a44a0-6acd-4bce-897f-9a8c8ad544bb",
+        "timestamp": 1794478331033
+      }
+    ],
+    "3. Fix the HTML `lang` attribute to match the UI language": [
+      {
+        "executionId": "4e45c7c2-1ad6-4e54-91f9-58670507897b",
+        "chatSessionId": "sess_224a44a0-6acd-4bce-897f-9a8c8ad544bb",
+        "timestamp": 1794478274754
+      },
+      {
+        "executionId": "4e45c7c2-1ad6-4e54-91f9-58670507897b",
+        "chatSessionId": "sess_224a44a0-6acd-4bce-897f-9a8c8ad544bb",
+        "timestamp": 1794478285293
+      },
+      {
+        "executionId": "4e45c7c2-1ad6-4e54-91f9-58670507897b",
+        "chatSessionId": "sess_224a44a0-6acd-4bce-897f-9a8c8ad544bb",
+        "timestamp": 1794478331690
+      }
+    ]
+  }
+}

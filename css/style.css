@@ -182,6 +182,16 @@ body.dark-mode {
     color: #f1f5f9;
 }
 
+body.dark-mode .header {
+    background: #1e3a5f;
+    color: white;
+}
+
+body.dark-mode .summary-card {
+    background: #1e3a5f;
+    color: white;
+}
+
 body.dark-mode .card {
     background: #1e293b;
     color: #f1f5f9;

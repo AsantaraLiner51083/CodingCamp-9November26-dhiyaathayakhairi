@@ -265,11 +265,18 @@ budgetLimitInput.addEventListener("input", function() {
 function updateBudgetWarning() {
     const limit = Number(budgetLimitInput.value);
 
+    // Guard: no limit set — clear warning and return early
+    if (limit <= 0) {
+        budgetWarning.textContent = "";
+        budgetWarning.classList.remove("budget-exceeded", "budget-safe");
+        return;
+    }
+
     const total = transactions.reduce(function(sum, transaction) {
         return sum + transaction.amount;
     }, 0);
 
-    if (limit > 0 && total > limit) {
+    if (total > limit) {
         budgetWarning.textContent =
             "Warning! You have exceeded your budget.";
 
